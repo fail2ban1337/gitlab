@@ -1365,6 +1365,7 @@ external_url 'http://127.0.0.1'
 ## GitLab NGINX
 ##! Docs: https://docs.gitlab.com/omnibus/settings/nginx.html
 ################################################################################
+
 nginx['enable'] = true
 nginx['redirect_http_to_https'] = true
 nginx['redirect_http_to_https_port'] = 80
