@@ -1369,10 +1369,10 @@ gitlab_rails['store_initial_root_password'] = true
 ################################################################################
 
 nginx['enable'] = true
-nginx['redirect_http_to_https'] = true
-nginx['redirect_http_to_https_port'] = 80
-nginx['ssl_certificate'] = "/etc/gitlab/ssl/gitlab.crt"
-nginx['ssl_certificate_key'] = "/etc/gitlab/ssl/gitlab.key"
+#nginx['redirect_http_to_https'] = true
+#nginx['redirect_http_to_https_port'] = 80
+#nginx['ssl_certificate'] = "/etc/gitlab/ssl/gitlab.crt"
+#nginx['ssl_certificate_key'] = "/etc/gitlab/ssl/gitlab.key"
 
 # nginx['enable'] = true
 # nginx['client_max_body_size'] = '250m'
